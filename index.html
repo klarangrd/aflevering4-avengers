@@ -10,18 +10,21 @@
 <body>
       <h1>ALBUM STATS</h1>
       <h2>Click to view the stats on these albums!</h2>
-
+      <h3 id="header"></h3>
 <div class="button-container">
-      <button onclick="update(data1)">Full plays</button>
-      <button onclick="update(data2)">Favourites</button>
-      <button onclick="update(data3)">Number of tracks</button>
-      <button onclick="update(data4)">Number of tracks</button>
+      <button onclick="update(data1)", id="knap1">Full plays</button>
+      <button onclick="update(data2)", id="knap2">Favourites</button>
+      <button onclick="update(data3)", id="knap3">Number of tracks</button>
+      <button onclick="update(data4)", id="knap4">Number of tracks</button>
 
 </div>
       
+
       <div id="my_dataviz"></div>
 
       <script src="script.js"></script>
       <footer id="footer">By Avengers: Klara, Hjalte, Vincent & Julie</footer>
+
+
 </body>
 </html>

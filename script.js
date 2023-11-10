@@ -131,4 +131,22 @@ const data4 = [//ratings
                 .attr("width", x.bandwidth())
                 .attr("height", d => height - y(d.value))
                 .attr("fill", "rgb(54, 34, 44)");
+
+
         };
+        
+        let content = document.getElementById("header");
+            document.getElementById("knap1").addEventListener("click",function(){
+                   content.innerHTML = "Full Plays"
+            })
+
+            document.getElementById("knap2").addEventListener("click",function(){
+                   content.innerHTML = "Favourites"
+            })
+            document.getElementById("knap3").addEventListener("click",function(){
+                   content.innerHTML = "Number of tracks"
+            })
+            document.getElementById("knap4").addEventListener("click",function(){
+                   content.innerHTML = "Rating"
+            })
+
